@@ -1,0 +1,31 @@
+.section-about {
+  height: 95vh;
+  padding: 8rem 0 13rem 0;
+  position: relative;
+  margin: 3rem;
+}
+
+.section-buff-photos {
+  padding: 8rem 0 25rem 0;
+  margin-top: 0;
+  background-image: linear-gradient(to left top,
+  rgba($color-grey-light-1, 0.9),
+  rgba($color-buff-gold, 0.9)),
+  url(../images/Colorado_Buffaloes_logo.png);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+
+.section-nobuff-photos {
+  padding: 13rem 0 10rem 0;
+  margin-top: -24rem;
+  background-image: linear-gradient(to left top,
+  rgba($color-red-light, .95),
+  rgba($color-grey-light-1, .95)),
+  url(../images/NEW_Herritage_H1.png);
+  background-size: cover;
+  background-position: center;
+  clip-path: polygon(0 0, 100% 20%, 100% 100%, 0% 100%);
+}

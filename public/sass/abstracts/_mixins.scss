@@ -1,0 +1,13 @@
+@mixin clearfix {
+  &::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+@mixin center-horz-vert {
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+}

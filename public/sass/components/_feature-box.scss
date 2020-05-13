@@ -1,0 +1,23 @@
+.feature-box {
+  padding: 2.5rem;
+  font-size: 1.8rem;
+  background-image: linear-gradient(to right bottom,
+    rgba($color-red-light, 0.8),
+    rgba($color-red, 0.9)),
+  url(../images/fieldclose.png);
+  background-size: cover;
+  color: $color-white;
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 0 1.5rem 4rem rgba($color-black, .15);
+  position: relative;
+  transition: all .2s;
+  outline-offset: 0.8rem;
+  z-index: 10;
+
+  &:hover{
+    transform: translateY(-.8rem) scale(1.01);
+    outline: 0.8rem solid $color-grey-dark;
+    z-index: 20;
+  }
+}

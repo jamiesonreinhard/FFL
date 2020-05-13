@@ -1,0 +1,25 @@
+.arrow {
+  position: absolute;
+  left: 50%;
+  bottom: 1rem;
+  transform: translate(-50%, -50%);
+  color: $color-white;
+  width: 3rem;
+  backface-visibility: hidden;
+  z-index: 100;
+
+  &__style{
+    text-decoration: none;
+    color: $color-white;
+    font-size: 10rem;
+    opacity: .8;
+
+  }
+  &:hover{
+    transform: translate(-50%, -52%);
+    opacity: 1;
+  }
+  &:active{
+    transform: translate(-50%, -50%);
+  }
+}

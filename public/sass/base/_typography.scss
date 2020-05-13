@@ -1,0 +1,80 @@
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.7;
+  color: $color-white;
+  padding: 0;
+  text-align: center;
+}
+
+.heading-primary {
+  text-transform: uppercase;
+  backface-visibility: hidden;
+
+  &--main {
+    display: block;
+    font-size: 7rem;
+    font-weight: 700;
+    letter-spacing: 10px;
+    font-family: "Oswald", sans-serif;
+  }
+
+  &--sub {
+    display: block;
+    font-size: 3rem;
+    font-weight: 700;
+  }
+}
+
+.heading-secondary{
+  text-transform: uppercase;
+  color: $color-grey-dark;
+  font-size: 5rem;
+  transition: all 0.1s;
+  display: inline-block;
+
+  &__alt{
+    color: $color-white;
+    background-color: rgba($color-black, 0.6);
+    padding: 0 2px;
+
+    span{
+      padding: 0 1rem;
+    }
+
+    &-1{
+      background-color: rgba($color-red, 0.7);
+      color: $color-white;
+
+      span{
+        padding: 0 1rem;
+      }
+    }
+  }
+
+  &__1:hover{
+    transform: scale(1.02);
+  }
+
+  }
+
+.heading-tertiary{
+  color: $color-white;
+  font-size: 3rem;
+
+
+
+  &__alt{
+    color: $color-grey-dark;
+    text-transform: uppercase;
+    margin-top: 3rem;
+  }
+}
+
+.paragraph {
+  color: $color-grey-dark;
+  font-size: 1rem;
+  &:not(:last-child){
+    margin-bottom: 2rem;
+  }
+}

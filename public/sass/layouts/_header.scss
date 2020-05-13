@@ -1,0 +1,26 @@
+.header {
+  height: 100vh;
+  background-image: linear-gradient(to right bottom,
+    rgba($color-red-light, 0.8),
+    rgba($color-red, 0.9)),
+  url(../images/fieldclose.png);
+  background-size: cover;
+  background-position: top;
+  position: relative;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  overflow: hidden;
+  margin-bottom: 0;
+
+  &__text-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  &__von-box {
+    position: absolute;
+    top: 1rem;
+    left: 1.5rem;
+  }
+}

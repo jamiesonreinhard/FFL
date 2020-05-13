@@ -1,0 +1,65 @@
+.footer {
+  background-color: $color-grey-dark;
+  color: $color-white;
+  position: relative;
+  padding: 5rem 0;
+
+  &__logo-box {
+    text-align: center;
+    background-color: transparent;
+    box-shadow: 0 1rem 3rem rgba($color-black, 0.5);
+    display: inline-block;
+    border-radius: 20%;
+    margin-bottom: 3rem;
+    transition: all 0.2s;
+
+    &:hover{
+      transform: translateY(-2px);
+    }
+    &:active{
+      transform: translateY(0);
+    }
+  }
+
+  &__logo {
+    width: 15rem;
+    border-radius: 20%;
+  }
+
+  &__navigation {
+
+
+  }
+
+  &__list {
+    list-style: none;
+  }
+
+  &__item {
+    display: inline-block;
+
+    &:not(:last-child) {
+      margin-right: 1rem;
+      padding-right: 1rem;
+      border-right: 1px solid $color-grey-light-1;
+    }
+
+  }
+
+  &__link {
+
+    transition: all .2s;
+
+    &:link,
+    &:visited {
+
+      color: $color-white;
+      text-decoration: none;
+      opacity: 1;
+      font-size: 2rem;
+    }
+    &:hover{
+      opacity: 0.8;
+    }
+    }
+  }
