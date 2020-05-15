@@ -35,6 +35,8 @@ body {
   font-size: 5rem;
   transition: all 0.1s;
   display: inline-block; }
+  .heading-secondary__white {
+    color: #fff; }
   .heading-secondary__alt {
     color: #fff;
     background-color: rgba(0, 0, 0, 0.6);
@@ -51,7 +53,8 @@ body {
 
 .heading-tertiary {
   color: #fff;
-  font-size: 3rem; }
+  font-size: 3rem;
+  text-transform: uppercase; }
   .heading-tertiary__alt {
     color: #777;
     text-transform: uppercase;
@@ -131,6 +134,32 @@ body {
     border-width: 1px;
     border-color: blue; }
 
+.create-area {
+  border: 2px solid #777;
+  border-radius: 10px;
+  padding: 2rem;
+  background-color: #76a3eb;
+  width: 60rem;
+  margin: 0 auto; }
+  .create-area-form {
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    padding: 2rem; }
+    .create-area-form input,
+    .create-area-form textarea {
+      border: none;
+      border-radius: 1rem;
+      display: block;
+      width: 100%;
+      resize: none;
+      font-family: inherit;
+      font-size: 1.5rem;
+      padding: 1rem; }
+      .create-area-form input:not(:last-child),
+      .create-area-form textarea:not(:last-child) {
+        margin-bottom: 2rem; }
+
 .arrow {
   position: absolute;
   left: 50%;
@@ -143,7 +172,7 @@ body {
   .arrow__style {
     text-decoration: none;
     color: #fff;
-    font-size: 10rem;
+    font-size: 5rem;
     opacity: .8; }
   .arrow:hover {
     transform: translate(-50%, -52%);
@@ -168,6 +197,8 @@ body {
     transform: translateY(-0.8rem) scale(1.01);
     outline: 0.8rem solid #777;
     z-index: 20; }
+  .feature-box--smack {
+    width: 80%; }
 
 .photo-box {
   border: none;
@@ -204,8 +235,12 @@ body {
   top: -3rem; }
 
 #photos {
-  position: absolute;
-  top: 0; }
+  position: relative;
+  top: -8rem; }
+
+#smack {
+  position: relative;
+  top: -7rem; }
 
 .header {
   height: 100vh;
@@ -408,6 +443,13 @@ body {
   position: relative;
   margin: 3rem; }
 
+.section-smack {
+  height: 100vh;
+  padding: 7rem 0;
+  background-color: #E06D7C;
+  background-image: url("https://www.transparenttextures.com/patterns/concrete-wall-2.png");
+  position: relative; }
+
 .section-buff-photos {
   padding: 8rem 0 25rem 0;
   margin-top: 0;
@@ -417,7 +459,7 @@ body {
   position: relative; }
 
 .section-nobuff-photos {
-  padding: 13rem 0 10rem 0;
+  padding: 13rem 0 18rem 0;
   margin-top: -24rem;
   background-image: linear-gradient(to left top, rgba(224, 109, 124, 0.95), rgba(247, 247, 247, 0.95)), url(../images/NEW_Herritage_H1.png);
   background-size: cover;

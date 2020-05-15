@@ -15,7 +15,7 @@ function Header(){
       <a href="https://www.espn.com/fantasy/football/" class="btn btn--white btn--animated">Set your lineup on ESPN</a>
     </div>
     <div class="arrow">
-      <a class="arrow__style" href="#about"><p>&mapstodown;</p></a>
+      <a class="arrow__style" href="#about"><i class="fas fa-chevron-down"></i></a>
     </div>
 
   </header>
